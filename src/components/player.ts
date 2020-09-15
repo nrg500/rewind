@@ -11,6 +11,7 @@ export default class Player {
     rightInput: any;
     jumpInput: any;
     destroyed: any;
+    groundCount: number;
     constructor(scene, x, y) {
         this.scene = scene;
 
@@ -29,6 +30,11 @@ export default class Player {
             repeat: -1,
             frameRate: 10
         });
+
+        anims.create({
+            key: 'mechanic-jump',
+            frames: this.scene.anims.generateFrameNames('mechanic', { start: 4, end: 7 })
+        })
 
         // Create the physics-based sprite that we will move around and animate
 
@@ -201,13 +207,26 @@ export default class Player {
 
         // Update the animation/texture based on the state of the player's state
         if (isOnGround) {
+            this.groundCount++;
             // console.log('isOnGround')
-            if (sprite.body.force.x !== 0) sprite.anims.play("mechanic-run", true);
-            else sprite.anims.play("mechanic-idle", true);
+            if (this.groundCount < 6) {
+                sprite.setTexture("mechanic", 6);
+            } else if (sprite.body.force.x !== 0) {
+                sprite.anims.play("mechanic-run", true);
+            } else {
+                sprite.anims.play("mechanic-idle", true);
+            }
         } else {
             // console.log('isNotOnGround')
+            this.groundCount = 0;
             sprite.anims.stop();
-            sprite.setTexture("mechanic", 0);
+            if (velocity.y > 0) {
+                sprite.setTexture("mechanic", 5)
+            } else {
+                sprite.setTexture("mechanic", 4)
+            }
+            // sprite.anims.stop();
+            // sprite.setTexture("mechanic", 0);
         }
     }
 

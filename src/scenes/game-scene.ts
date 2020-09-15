@@ -37,7 +37,7 @@ export class GameScene extends Phaser.Scene {
         this.player = new Player(this, 300, 0);
         this.cameras.main.x = 0;
         this.cameras.main.y = 0;
-        this.cameras.main.setBounds(350, 500, this.game.scale.width, this.game.scale.height);
+        this.cameras.main.setBounds(52, 70, this.game.scale.width, this.game.scale.height);
         this.matter.world.setGravity(0, 2);
         const sound = this.sound.add('music');
         sound.play({ loop: true })
