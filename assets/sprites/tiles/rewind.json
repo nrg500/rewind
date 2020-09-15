@@ -1,0 +1,693 @@
+{
+       "height": 16,
+       "infinite": false,
+       "layers": [
+              {
+                     "data": "jwAAAFcAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVwAAYI8AAACPAAAAVwAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXAABgjwAAAI8AAABXAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFcAAGCPAAAAjwAAAFcAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVwAAYI8AAACPAAAAVwAAoAAAAABFAAAALwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFAAAALwAAAAAAAABXAABgjwAAAI8AAABXAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFAAAARAAAAC8AAAAAAAAAAAAAAAAAAABFAAAARAAAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFcAAGCPAAAAjwAAAFcAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVwAAYI8AAACPAAAAVwAAoAAAAAAAAAAAAAAAAAAAAABFAAAALwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFAAAALwAAAAAAAAAAAAAAAAAAAAAAAABXAABgjwAAAI8AAABXAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFcAAGCPAAAAjwAAABYAAKBEAAAARAAAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAEQAAABEAAAAFgAAAI8AAACPAAAAjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEUAAAAvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPAAAAjwAAAI8AAACPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAABEAAAARAAAAEQAAAAdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI8AAACPAAAAjwAAAI8AAABEAAAARAAAAEQAAABEAAAAHQAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAewAAAI8AAACPAAAAjwAAAHAAAAAdAAAAAAAAAAAAAAAAAAAAAAAAACgAAABEAAAARAAAAEQAAABEAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAABwAAAAHQAAAAAAAAAAAAAAKAAAAHsAAACPAAAAjwAAAI8AAACPAAAAjwAAAHAAAAAdAAAAAAAAAAAAAAAoAAAAewAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAABwAAAARAAAAEQAAAB7AAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAHAAAABEAAAARAAAAHsAAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAACPAAAAjwAAAI8AAAA=",
+                     "encoding": "base64",
+                     "height": 16,
+                     "id": 1,
+                     "name": "BaseMap",
+                     "opacity": 1,
+                     "properties": [
+                            {
+                                   "name": "collides",
+                                   "type": "bool",
+                                   "value": true
+                            }
+                     ],
+                     "type": "tilelayer",
+                     "visible": true,
+                     "width": 29,
+                     "x": 0,
+                     "y": 0
+              }
+       ],
+       "nextlayerid": 2,
+       "nextobjectid": 1,
+       "orientation": "orthogonal",
+       "renderorder": "right-down",
+       "tiledversion": "1.2.5",
+       "tileheight": 70,
+       "tilesets": [
+              {
+                     "columns": 11,
+                     "firstgid": 1,
+                     "image": "personal\/rewind\/assets\/sprites\/tiles\/tiles_spritesheet.png",
+                     "imageheight": 934,
+                     "imagewidth": 790,
+                     "margin": 0,
+                     "name": "tiles_spritesheet",
+                     "spacing": 2,
+                     "tilecount": 143,
+                     "tileheight": 70,
+                     "tiles": [
+                            {
+                                   "id": 21,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 24,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 35,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 1
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 28,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 1,
+                                                        "name": "collide",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": -0.666666666666667,
+                                                                      "y": -0.333333333333333
+                                                               },
+                                                               {
+                                                                      "x": -0.666666666666667,
+                                                                      "y": 69.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": 69.6666666666667
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 35,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": -0.666666666666667,
+                                                                      "y": -0.333333333333329
+                                                               },
+                                                               {
+                                                                      "x": 22,
+                                                                      "y": -0.666666666666671
+                                                               },
+                                                               {
+                                                                      "x": 42,
+                                                                      "y": -29
+                                                               },
+                                                               {
+                                                                      "x": 69,
+                                                                      "y": -47
+                                                               },
+                                                               {
+                                                                      "x": 69.3333333333333,
+                                                                      "y": -70.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": -0.666666666666667,
+                                                                      "y": -70.3333333333333
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 0,
+                                                        "y": 70
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 39,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 2,
+                                                        "name": "collider",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": 0
+                                                               },
+                                                               {
+                                                                      "x": -69.6666666666667,
+                                                                      "y": 69.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": 69.3333333333333
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 70,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 45,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 46,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 1,
+                                                        "name": "collide",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": -0.333333333333314
+                                                               },
+                                                               {
+                                                                      "x": 25,
+                                                                      "y": 0
+                                                               },
+                                                               {
+                                                                      "x": 52,
+                                                                      "y": -12
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": -40
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": -70.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": -0.333333333333333,
+                                                                      "y": -70
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 0,
+                                                        "y": 70
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 56,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 57,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": 0
+                                                               },
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": 23.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 22,
+                                                                      "y": 38
+                                                               },
+                                                               {
+                                                                      "x": 39.3333333333333,
+                                                                      "y": 57.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 46.3333333333333,
+                                                                      "y": 69.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": 69.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": 0
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 67,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 4,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 68,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 0,
+                                                        "id": 2,
+                                                        "name": "",
+                                                        "polygon": [
+                                                               {
+                                                                      "x": 0,
+                                                                      "y": 0
+                                                               },
+                                                               {
+                                                                      "x": 0.333333333333333,
+                                                                      "y": 32.6666666666667
+                                                               },
+                                                               {
+                                                                      "x": 9.33333333333333,
+                                                                      "y": 49.3333333333333
+                                                               },
+                                                               {
+                                                                      "x": 28,
+                                                                      "y": 61
+                                                               },
+                                                               {
+                                                                      "x": 54,
+                                                                      "y": 68.6666666666667
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": 70
+                                                               },
+                                                               {
+                                                                      "x": 70,
+                                                                      "y": 1.11022302462516e-16
+                                                               }
+                                                        ],
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 0,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 78,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 79,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 86,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 90,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 111,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 122,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 131,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 141,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            },
+                            {
+                                   "id": 142,
+                                   "objectgroup": {
+                                          "draworder": "index",
+                                          "name": "",
+                                          "objects": [
+                                                 {
+                                                        "height": 70,
+                                                        "id": 1,
+                                                        "name": "collider",
+                                                        "rotation": 0,
+                                                        "type": "",
+                                                        "visible": true,
+                                                        "width": 70,
+                                                        "x": 0,
+                                                        "y": 0
+                                                 }
+                                          ],
+                                          "opacity": 1,
+                                          "type": "objectgroup",
+                                          "visible": true,
+                                          "x": 0,
+                                          "y": 0
+                                   }
+                            }
+                     ],
+                     "tilewidth": 70
+              }
+       ],
+       "tilewidth": 70,
+       "type": "map",
+       "version": 1.2,
+       "width": 29
+}

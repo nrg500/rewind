@@ -1,8 +1,12 @@
 import * as Phaser from 'phaser';
-import { GameScene } from './GameScene';
+import * as MatterJS from 'matter-js';
+import * as PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
+import { GameScene } from './scenes/game-scene';
+
+import player from './components/player'
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
-    title: 'Sample',
+    title: 'Rewind',
 
     type: Phaser.AUTO,
 
@@ -11,15 +15,18 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
         height: window.innerHeight,
     },
 
-    physics: {
-        default: 'arcade',
-        arcade: {
-            debug: true,
-        },
+    physics: { default: 'matter' },
+    plugins: {
+        scene: [
+            {
+                plugin: PhaserMatterCollisionPlugin, // The plugin class
+                key: "matterCollision", // Where to store in Scene.Systems, e.g. scene.sys.matterCollision
+                mapping: "matterCollision" // Where to store in the Scene, e.g. scene.matterCollision
+            }
+        ]
     },
 
     parent: 'game',
-    backgroundColor: '#000000',
     scene: GameScene,
 };
 

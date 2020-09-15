@@ -17,6 +17,8 @@
     "dev": "webpack-dev-server"
   },
   "dependencies": {
-    "phaser": "^3.24.1"
+    "phaser": "^3.24.1",
+    "phaser-matter-collision-plugin": "0.10.2",
+    "@types/matter-js": "^0.14.5"
   }
 }
